@@ -1,0 +1,6 @@
+framework module Pods_CXE_Reporter {
+  umbrella header "Pods-CXE Reporter-umbrella.h"
+
+  export *
+  module * { export * }
+}

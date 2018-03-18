@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4145C624205EDB2900A61B31 /* CategoricalTreeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C622205EDB2900A61B31 /* CategoricalTreeTableViewController.swift */; };
+		4145C625205EDB2900A61B31 /* LocationSpecificsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C623205EDB2900A61B31 /* LocationSpecificsTableViewController.swift */; };
+		4145C629205EE26600A61B31 /* ProblemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C626205EE26600A61B31 /* ProblemType.swift */; };
+		4145C62A205EE26600A61B31 /* ServerCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C627205EE26600A61B31 /* ServerCommunicator.swift */; };
+		4145C62B205EE26600A61B31 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C628205EE26600A61B31 /* Department.swift */; };
+		4145C62D205EE2BB00A61B31 /* Selectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C62C205EE2BB00A61B31 /* Selectable.swift */; };
+		4145C62F205EE2C700A61B31 /* LeafItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C62E205EE2C700A61B31 /* LeafItem.swift */; };
+		4145C631205EE2D600A61B31 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C630205EE2D600A61B31 /* Category.swift */; };
+		4145C633205EE80300A61B31 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C632205EE80300A61B31 /* Constant.swift */; };
+		4145C635205EE8F500A61B31 /* SelectableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4145C634205EE8F500A61B31 /* SelectableView.xib */; };
+		4145C637205EE91300A61B31 /* SelectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145C636205EE91300A61B31 /* SelectableView.swift */; };
 		41FAA924205ED61B00610B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAA923205ED61B00610B66 /* AppDelegate.swift */; };
-		41FAA926205ED61B00610B66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAA925205ED61B00610B66 /* ViewController.swift */; };
 		41FAA929205ED61B00610B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FAA927205ED61B00610B66 /* Main.storyboard */; };
 		41FAA92B205ED61B00610B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41FAA92A205ED61B00610B66 /* Assets.xcassets */; };
 		41FAA92E205ED61B00610B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FAA92C205ED61B00610B66 /* LaunchScreen.storyboard */; };
+		41FAA93B205ED64800610B66 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAA936205ED64800610B66 /* Location.swift */; };
+		41FAA93C205ED64800610B66 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAA937205ED64800610B66 /* Report.swift */; };
+		41FAA93D205ED64800610B66 /* ReportingFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAA938205ED64800610B66 /* ReportingFormViewController.swift */; };
+		684E046D91BF9CF2FBC9DBAD /* Pods_CXE_Reporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1046E1420FCC7668488E76AF /* Pods_CXE_Reporter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1046E1420FCC7668488E76AF /* Pods_CXE_Reporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXE_Reporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4145C622205EDB2900A61B31 /* CategoricalTreeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoricalTreeTableViewController.swift; sourceTree = "<group>"; };
+		4145C623205EDB2900A61B31 /* LocationSpecificsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSpecificsTableViewController.swift; sourceTree = "<group>"; };
+		4145C626205EE26600A61B31 /* ProblemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemType.swift; sourceTree = "<group>"; };
+		4145C627205EE26600A61B31 /* ServerCommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerCommunicator.swift; sourceTree = "<group>"; };
+		4145C628205EE26600A61B31 /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		4145C62C205EE2BB00A61B31 /* Selectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectable.swift; sourceTree = "<group>"; };
+		4145C62E205EE2C700A61B31 /* LeafItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafItem.swift; sourceTree = "<group>"; };
+		4145C630205EE2D600A61B31 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4145C632205EE80300A61B31 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4145C634205EE8F500A61B31 /* SelectableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectableView.xib; sourceTree = "<group>"; };
+		4145C636205EE91300A61B31 /* SelectableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableView.swift; sourceTree = "<group>"; };
 		41FAA920205ED61B00610B66 /* CXE Reporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CXE Reporter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FAA923205ED61B00610B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41FAA925205ED61B00610B66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41FAA928205ED61B00610B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41FAA92A205ED61B00610B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41FAA92D205ED61B00610B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41FAA92F205ED61B00610B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FAA936205ED64800610B66 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		41FAA937205ED64800610B66 /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		41FAA938205ED64800610B66 /* ReportingFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportingFormViewController.swift; sourceTree = "<group>"; };
+		4A4313E2B790AD0F1EB23865 /* Pods-CXE Reporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXE Reporter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXE Reporter/Pods-CXE Reporter.debug.xcconfig"; sourceTree = "<group>"; };
+		C1D9721857967C99E2ED1AE5 /* Pods-CXE Reporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXE Reporter.release.xcconfig"; path = "Pods/Target Support Files/Pods-CXE Reporter/Pods-CXE Reporter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				684E046D91BF9CF2FBC9DBAD /* Pods_CXE_Reporter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				41FAA922205ED61B00610B66 /* CXE Reporter */,
 				41FAA921205ED61B00610B66 /* Products */,
+				E16B4BF0CE84167A90214F05 /* Pods */,
+				467B696662A76E3C38831E1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,52 @@
 		41FAA922205ED61B00610B66 /* CXE Reporter */ = {
 			isa = PBXGroup;
 			children = (
-				41FAA923205ED61B00610B66 /* AppDelegate.swift */,
-				41FAA925205ED61B00610B66 /* ViewController.swift */,
+				4145C628205EE26600A61B31 /* Department.swift */,
+				4145C626205EE26600A61B31 /* ProblemType.swift */,
+				4145C627205EE26600A61B31 /* ServerCommunicator.swift */,
+				4145C622205EDB2900A61B31 /* CategoricalTreeTableViewController.swift */,
+				4145C623205EDB2900A61B31 /* LocationSpecificsTableViewController.swift */,
+				41FAA936205ED64800610B66 /* Location.swift */,
+				41FAA937205ED64800610B66 /* Report.swift */,
+				41FAA938205ED64800610B66 /* ReportingFormViewController.swift */,
+				41FAA93F205ED6AB00610B66 /* Supporting Files */,
 				41FAA927205ED61B00610B66 /* Main.storyboard */,
+				4145C62C205EE2BB00A61B31 /* Selectable.swift */,
+				4145C62E205EE2C700A61B31 /* LeafItem.swift */,
+				4145C630205EE2D600A61B31 /* Category.swift */,
+				4145C632205EE80300A61B31 /* Constant.swift */,
+				4145C634205EE8F500A61B31 /* SelectableView.xib */,
+				4145C636205EE91300A61B31 /* SelectableView.swift */,
+			);
+			path = "CXE Reporter";
+			sourceTree = "<group>";
+		};
+		41FAA93F205ED6AB00610B66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41FAA923205ED61B00610B66 /* AppDelegate.swift */,
 				41FAA92A205ED61B00610B66 /* Assets.xcassets */,
 				41FAA92C205ED61B00610B66 /* LaunchScreen.storyboard */,
 				41FAA92F205ED61B00610B66 /* Info.plist */,
 			);
-			path = "CXE Reporter";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		467B696662A76E3C38831E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1046E1420FCC7668488E76AF /* Pods_CXE_Reporter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E16B4BF0CE84167A90214F05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A4313E2B790AD0F1EB23865 /* Pods-CXE Reporter.debug.xcconfig */,
+				C1D9721857967C99E2ED1AE5 /* Pods-CXE Reporter.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41FAA932205ED61B00610B66 /* Build configuration list for PBXNativeTarget "CXE Reporter" */;
 			buildPhases = (
+				34551591D113B7AAB24A7AE9 /* [CP] Check Pods Manifest.lock */,
 				41FAA91C205ED61B00610B66 /* Sources */,
 				41FAA91D205ED61B00610B66 /* Frameworks */,
 				41FAA91E205ED61B00610B66 /* Resources */,
+				B02E714807E389B92AB7A93C /* [CP] Embed Pods Frameworks */,
+				8EA7CF9B457B6F159035E1A7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +199,90 @@
 			files = (
 				41FAA92E205ED61B00610B66 /* LaunchScreen.storyboard in Resources */,
 				41FAA92B205ED61B00610B66 /* Assets.xcassets in Resources */,
+				4145C635205EE8F500A61B31 /* SelectableView.xib in Resources */,
 				41FAA929205ED61B00610B66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34551591D113B7AAB24A7AE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CXE Reporter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA7CF9B457B6F159035E1A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CXE Reporter/Pods-CXE Reporter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B02E714807E389B92AB7A93C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CXE Reporter/Pods-CXE Reporter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CXE Reporter/Pods-CXE Reporter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41FAA91C205ED61B00610B66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41FAA926205ED61B00610B66 /* ViewController.swift in Sources */,
+				4145C62A205EE26600A61B31 /* ServerCommunicator.swift in Sources */,
+				41FAA93B205ED64800610B66 /* Location.swift in Sources */,
+				41FAA93C205ED64800610B66 /* Report.swift in Sources */,
+				4145C629205EE26600A61B31 /* ProblemType.swift in Sources */,
 				41FAA924205ED61B00610B66 /* AppDelegate.swift in Sources */,
+				4145C62D205EE2BB00A61B31 /* Selectable.swift in Sources */,
+				4145C625205EDB2900A61B31 /* LocationSpecificsTableViewController.swift in Sources */,
+				4145C62F205EE2C700A61B31 /* LeafItem.swift in Sources */,
+				4145C62B205EE26600A61B31 /* Department.swift in Sources */,
+				4145C633205EE80300A61B31 /* Constant.swift in Sources */,
+				4145C637205EE91300A61B31 /* SelectableView.swift in Sources */,
+				41FAA93D205ED64800610B66 /* ReportingFormViewController.swift in Sources */,
+				4145C624205EDB2900A61B31 /* CategoricalTreeTableViewController.swift in Sources */,
+				4145C631205EE2D600A61B31 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +417,12 @@
 		};
 		41FAA933205ED61B00610B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4313E2B790AD0F1EB23865 /* Pods-CXE Reporter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3F8V2776R5;
-				INFOPLIST_FILE = "CXE Reporter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CXE Reporter/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CXE.CXE-Reporter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +433,12 @@
 		};
 		41FAA934205ED61B00610B66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D9721857967C99E2ED1AE5 /* Pods-CXE Reporter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3F8V2776R5;
-				INFOPLIST_FILE = "CXE Reporter/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CXE Reporter/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CXE.CXE-Reporter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
