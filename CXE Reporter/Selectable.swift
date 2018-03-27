@@ -15,6 +15,7 @@ class Selectable: NSObject {
     init(server_id: String, title: String) {
         self.server_id = server_id
         self.title = title
+        super.init()
     }
     
     var json: [String: String] {

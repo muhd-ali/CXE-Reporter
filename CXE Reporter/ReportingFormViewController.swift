@@ -43,6 +43,7 @@ class ReportingFormViewController: UIViewController {
         }
         transform = CATransform3DTranslate(transform, xTrans, yTrans, 0)
         transform = CATransform3DScale(transform, xScale, yScale, 1)
+        transform = CATransform3DRotate(transform, 45, 0, 0, 1)
         return transform
     }
     
