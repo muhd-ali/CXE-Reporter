@@ -66,21 +66,21 @@ class Location: NSObject {
         Specification(
             title: "Terminal",
             options: [
-                "terminal 1",
-                "terminal 2",
-                "terminal 3",
-                "terminal 4",
-                "terminal 5",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
                 ]
         ),
         Specification(
             title: "Gate",
             options: [
-                "gate 1",
-                "gate 2",
-                "gate 3",
-                "gate 4",
-                "gate 5",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
                 ]
         ),
     ]
