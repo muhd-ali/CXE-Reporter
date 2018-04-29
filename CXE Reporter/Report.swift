@@ -14,8 +14,18 @@ protocol HasToBeProvidedByTheUser {
 }
 
 class Report: NSObject {
+    func make_dateSubmitted() -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        dateFormatter.timeZone = TimeZone(identifier: "UTC")
+        return dateFormatter.string(from: Date())
+    }
+
     func send(callback: @escaping (Bool) -> Void) {
-        ServerCommunicator.shared.send(reportJSON: self.json, callback: callback)
+        let dateSubmitted = self.make_dateSubmitted()
+        var json = self.json
+        json[Field.dateSubmitted.key] = dateSubmitted
+        ServerCommunicator.shared.send(reportJSON: json, callback: callback)
     }
     
     private var json: [String: Any] {
@@ -32,6 +42,7 @@ class Report: NSObject {
         case problemType
         case location
         case note
+        case dateSubmitted
         
         var description: String {
             switch self {
@@ -43,6 +54,8 @@ class Report: NSObject {
                 return "Location"
             case .note:
                 return "Note"
+            case .dateSubmitted:
+                return "Date Submitted"
             }
         }
 
@@ -56,6 +69,8 @@ class Report: NSObject {
                 return "location"
             case .note:
                 return "note"
+            case .dateSubmitted:
+                return "dateSubmitted"
             }
         }
         
